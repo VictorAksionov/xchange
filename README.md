@@ -1,10 +1,10 @@
-# Simplex currency exchange API
+# Currency exchange API
 
 ## Dependencies
 
 * Node.js pre-installed
 
-root folder `\..\simplex_xchange`
+root folder `\..\xchange`
 
 run ` npm install typescript ts-node express @types/express morgan @types/morgan axios @types/axios nodemon jest @types/jest ts-jest supertest`
 
@@ -27,7 +27,7 @@ run ` npm install typescript ts-node express @types/express morgan @types/morgan
 
 * instead of v4 version latest v6 version was used for **exchange-api**
 * `config.ts` `api_key` value can be modified if necessary
-* In terminal from destination folder `\..\simplex_xchange` `npm run dev`
+* In terminal from destination folder `\..\xchange` `npm run dev`
 * server runs on `localhost:6060` by default - can be changed in `config.ts`
 * In browser/postman `http://localhost:6060/quote?baseCurrency=EUR&quoteCurrency=ILS&baseAmount=1000`
 * `npm test` to run a test package
