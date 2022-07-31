@@ -63,4 +63,4 @@ For performance and cost reasons exchange rates are to be cached. Please impleme
 Cache algorithm. For the purpose of the exercise use in memory storage.
 ___
 
-*2022, by Victor Aksionov for Simplex*
+*2022, by Victor Aksionov*
