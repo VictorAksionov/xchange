@@ -4,10 +4,10 @@ export function isValidCurrency(base: string, quote: string): boolean {
     return (isCurrencySupported(base) && isCurrencySupported(quote) && !isSameCurrency(base, quote))
 }
 
-function isCurrencySupported(currency: string): boolean {
+export function isCurrencySupported(currency: string): boolean {
     return (currency in SupportedCurrency)
 }
 
-function isSameCurrency(currency: string, compareCurrency:string): boolean {
+export function isSameCurrency(currency: string, compareCurrency:string): boolean {
     return currency === compareCurrency;
 }

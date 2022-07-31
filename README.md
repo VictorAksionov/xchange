@@ -6,7 +6,7 @@
 
 root folder `\..\simplex_xchange`
 
-run ` npm install typescript ts-node express @types/express morgan @types/morgan axios @types/axios nodemon`
+run ` npm install typescript ts-node express @types/express morgan @types/morgan axios @types/axios nodemon jest @types/jest ts-jest supertest`
 
 * TypeScript: TypeScript compiler with static set type definitions
 * Ts-node: run and configure Typescript execution environments
@@ -19,6 +19,9 @@ run ` npm install typescript ts-node express @types/express morgan @types/morgan
 * @types/Axios: Type definitions for Axios.
 * Nodemon: A server utility library, in editor changes monitoring,restarts the server whenever code changes are
   detected.
+* Jest a testing framework 
+* Type definitions for jest
+* ts-jest jest support for typescript
 
 ## Usage
 
@@ -27,6 +30,7 @@ run ` npm install typescript ts-node express @types/express morgan @types/morgan
 * In terminal from destination folder `\..\simplex_xchange` `npm run dev`
 * server runs on `localhost:6060` by default - can be changed in `config.ts`
 * In browser/postman `http://localhost:6060/quote?baseCurrency=EUR&quoteCurrency=ILS&baseAmount=1000`
+* `npm test` to run a test package
 
 ## API request interface
 
